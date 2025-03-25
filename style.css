@@ -1,15 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 /* main-head*/
 .main-head {
     width: 1200px;
     display: flex;
-    position:sticky;
+    position: sticky;
     top: 0px;
     z-index: 1;
 }
@@ -22,14 +23,16 @@
     font-size: 12px;
     flex-shrink: 1;
 }
+
 .login-sign {
     height: 80px;
     background-color: white;
     box-shadow: 0px 0px 4px 0px rgb(57, 55, 55);
     padding: 0px;
-    font-family: open sans ,nunito;
+    font-family: open sans, nunito;
 
 }
+
 .AJIOLUXE {
     background-color: black;
     color: white;
@@ -37,14 +40,16 @@
     font-size: 12px;
     flex: 1 1 1;
 }
+
 .Sign-in {
     margin-top: 0px;
     font-size: 12px;
     width: 100px;
     height: 30px;
 }
+
 .Customer-care {
-    margin: 5px 0px 0px 0px; 
+    margin: 5px 0px 0px 0px;
 }
 
 .ajio-logo {
@@ -52,28 +57,34 @@
     height: 80px;
     margin: 0px 0px 20px 120px;
 }
+
 .logo {
     background-image: url(Ajio-Logo.svg);
     width: 130px;
     height: 60px;
     font-size: 10px;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
 }
-.shooping-menu{
+
+.shooping-menu {
     display: flex;
-    gap: 45px; 
+    gap: 45px;
 }
-li{
+
+li {
     list-style: none;
 }
-.menu{
+
+.menu {
     display: flex;
 }
+
 .shooping-bar {
     display: flex;
     flex-direction: row;
     flex-shrink: 1;
 }
+
 .shooping-bar-items {
     display: flex;
     flex-direction: row;
@@ -86,27 +97,32 @@ li{
 }
 
 .search-bar {
-    transform: translate(0px,-10px);
+    transform: translate(0px, -10px);
     margin: 0px 20px 0px 0px;
 }
-.men:hover{
+
+.men:hover {
     font-weight: 700;
     cursor: pointer;
 }
-.women:hover{
+
+.women:hover {
     font-weight: 700;
     cursor: pointer;
 
 }
-.kids:hover{
+
+.kids:hover {
     font-weight: 700;
     cursor: pointer;
 }
-.beauty:hover{
+
+.beauty:hover {
     font-weight: 700;
     cursor: pointer;
 }
-.home-kitchen:hover{
+
+.home-kitchen:hover {
     font-weight: 700;
     cursor: pointer;
 }
@@ -115,82 +131,95 @@ li{
     width: 300px;
     border: 1px solid black;
     text-align: start;
-    padding: 0px 0px 0px 10px ;
+    padding: 0px 0px 0px 10px;
     border-radius: 20px;
     background-color: rgba(250, 250, 210, 0.543);
 
 }
+
 .input-search-bar {
     height: 36px;
 }
-.search-bar i{
+
+.search-bar i {
     width: 40px;
     height: 40px;
-    border: none ;
-    transform: translate(-45px,-0px);
+    border: none;
+    transform: translate(-45px, -0px);
     text-align: center;
- 
+
 }
 
-.search-bar i{
+.search-bar i {
     width: 35px;
     height: 35px;
 }
 
-.second-icons i{
-    transform: translate(320px,-48px);
+.second-icons i {
+    transform: translate(320px, -48px);
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.973);
     align-content: center;
     background-color: rgba(0, 0, 0, 0.812);
     color: white;
 }
+
 .main-banner {
     margin: 10px 0px 0px 0px;
     display: flex;
     overflow: hidden;
     width: 1440px;
 }
+
 .slider-animation {
     display: flex;
     animation: slide 15s infinite;
     animation-delay: 0s;
     animation-timing-function: cubic-bezier(0.000075, 0.82, 0.165, 1);
 }
+
 @keyframes slide {
     0% {
         transform: translateX(0);
     }
+
     25% {
         transform: translateX(0);
     }
+
     50% {
         transform: translateX(-25%);
 
     }
+
     75% {
         transform: translateX(-50%);
     }
+
     80% {
         transform: translate(-75%);
     }
+
     100% {
         transform: translateX(-75%);
     }
 
 }
+
 .slide {
     display: flex;
     width: 1440px;
     justify-content: center;
     margin: 10px 0px px 0px;
 }
+
 .slide-indicator {
     display: flex;
     gap: 40px;
     justify-content: center;
     margin: 20px 0px 10px 0px;
 }
+
 .data1 {
     width: 70px;
     height: 5px;
@@ -211,24 +240,28 @@ li{
     justify-content: center;
     margin: 10px 0px 20px 0px;
 }
+
 .slide-indicator-4 {
     display: flex;
     gap: 40px;
     justify-content: center;
     margin: 20px 0px 0px 0px;
 }
+
 .flex-box-items {
     background-color: black;
     color: white;
     display: flex;
     padding: 10px 5px 20px 5px;
 }
+
 .iteams {
     display: flex;
     flex-direction: row;
     color: white;
     height: 620px;
 }
+
 .iteams-2 {
     background-color: black;
     width: 1440px;
@@ -237,43 +270,50 @@ li{
     display: flex;
     flex-direction: row;
 }
+
 .box1 {
     color: white;
     width: 480px;
     height: 640px;
-    background-image: url(image-kurtas.avif);
+    background-image: url(Images/image-kurtas.avif);
 
 }
+
 .box2 {
     color: white;
     width: 480px;
     height: 640px;
-    background-image: url(photo-women.avif);
+    background-image: url(Images/photo-women.avif);
 }
+
 .box3 {
     color: white;
     width: 480px;
     height: 640px;
-    background-image: url(image-tshirts.avif);
+    background-image: url(Images/image-tshirts.avif);
 }
+
 .box4 {
     color: white;
     width: 480px;
     height: 640px;
-    background-image: url(image-trouseers.avif);
+    background-image: url(Images/image-trouseers.avif);
 }
+
 .box5 {
     color: white;
     width: 480px;
     height: 640px;
-    background-image: url(image-tops.avif);
+    background-image: url(Images/image-tops.avif);
 }
+
 .box6 {
     color: white;
     width: 480px;
     height: 640px;
-    background-image: url(image-boys.avif); 
+    background-image: url(Images/image-boys.avif);
 }
+
 .box1:hover {
     transform: scale(1.005);
 
@@ -285,6 +325,7 @@ li{
     justify-content: center;
     margin: 10px 0px 20px 0px;
 }
+
 .slide-indicator-5 {
     display: flex;
     gap: 40px;
@@ -298,6 +339,7 @@ li{
     justify-content: center;
     margin: 10px 0px 20px 0px;
 }
+
 .slide-indicator-6 {
     display: flex;
     gap: 40px;
@@ -306,12 +348,13 @@ li{
 }
 
 @keyframes grow {
-    from{
+    from {
         transform: scale(1);
-     }
-     to {
-         transform: scale(1.03);
-     }
+    }
+
+    to {
+        transform: scale(1.03);
+    }
 }
 
 
@@ -321,24 +364,29 @@ li{
     animation-direction: alternate;
     cursor: pointer;
 }
+
 #grow:hover {
     animation: grow 0.5s linear 0s 1;
     animation-fill-mode: forwards;
     animation-direction: alternate;
     cursor: pointer;
 }
+
 .banner-daily-fit-1 {
     margin: 30px 0px 0px 0px;
 }
+
 .banner-thefallwinter-1 {
     margin: 0px 0px 0px 0px;
 }
+
 .ajio-exclusive-outfits {
     overflow: hidden;
     margin: -8px 0px 0px 0px;
     width: 1440px;
 
 }
+
 .outfits {
     display: flex;
     width: 1440px;
@@ -346,30 +394,38 @@ li{
     margin: 10px 0px 15px 0px;
 
 }
+
 @keyframes next {
     0% {
         transform: translateX(0);
     }
+
     25% {
         transform: translateX(0);
     }
+
     50% {
         transform: translateX(-25%);
 
     }
+
     75% {
         transform: translateX(-50%);
     }
+
     80% {
         transform: translate(-70%);
     }
+
     85% {
         transform: translateX(-80%);
-    } 
+    }
+
     100% {
         transform: translateX(-100%);
-    } 
+    }
 }
+
 /* .next-icon {
     display: flex;
     justify-content: end;
@@ -379,7 +435,7 @@ li{
     z-index: 1;
     margin: 0px 5px 0px 0px;
 } */
-button{
+button {
     width: 50px;
     height: 50px;
     background-color: white;
@@ -393,67 +449,80 @@ button{
 #riseup-refrese {
     margin: 0px 0px 0px 0px;
 }
+
 /* .next-icon1{
     position: absolute;
     right: 0;
     transform: translateY(-180px);
 } */
-.ethinicwear{
+.ethinicwear {
     margin: 10px 0px 20px 0px;
 }
-.banner-sare1{
+
+.banner-sare1 {
     margin: 30px 0px 0px 0px;
 }
-.footwear{
+
+.footwear {
     margin: 10px 0px 0px 0px;
 
 }
-.footwear-brands{
+
+.footwear-brands {
     display: flex;
 }
-.offers01{
+
+.offers01 {
     margin: 20px 0px 0px 0px;
     display: flex;
 }
-.discover01{
+
+.discover01 {
     display: flex;
 
 }
-.ajioluxe01{
+
+.ajioluxe01 {
     margin: 10px 0px 0px 0px;
 
 }
-.ajiocare{
+
+.ajiocare {
     margin: 10px 0px 0px 0px;
 
 }
-.policy{
+
+.policy {
     display: flex;
     height: 100px;
     justify-content: center;
     justify-content: space-evenly;
     margin: 0px 0px 0px 300px;
-    background-color:white;
+    background-color: white;
 }
-.information{
+
+.information {
     width: 1440px;
     height: 500px;
-    background-color:#2C4152;
+    background-color: #2C4152;
     color: white;
     overflow: auto;
 }
-.info{
-    font-family:  "Source Sans 3", sans-serif;
+
+.info {
+    font-family: "Source Sans 3", sans-serif;
     font-size: 12px;
     font-weight: 100;
-    transform: translate(0px,30px);
+    transform: translate(0px, 30px);
     position: absolute;
     left: 240px;
 }
-span{
+
+span {
     cursor: pointer;
 }
-.boxes{
+
+.boxes {
     display: flex;
     width: 1200px;
     height: 350px;
@@ -462,22 +531,26 @@ span{
     font-family: 'Times New Roman', Times, serif;
     transform: translate(100px, 50px);
 }
-.ajio01{
+
+.ajio01 {
     margin: 20px 0px 0px 0px;
     font-family: "Source Sans 3", sans-serif;
     font-weight: 100;
     font-size: 13px;
 }
-.ajio02{
+
+.ajio02 {
     margin: 5px 0px 5px 0px;
 }
-hr{
+
+hr {
     width: 1000px;
     position: absolute;
     left: 200px;
     font-weight: -100;
 }
-.downinfo{
+
+.downinfo {
     display: flex;
     justify-content: space-between;
     margin: 0px 250px 0px 200px;
@@ -485,38 +558,44 @@ hr{
     color: rgba(245, 245, 245, 0.698);
 
 }
-.banking{
+
+.banking {
     display: flex;
-    margin: 20px 0px 0px 200px;  
+    margin: 20px 0px 0px 200px;
     display: flex;
     gap: 30px;
 }
-.netbanking{
+
+.netbanking {
     font-family: "Source Sans 3", sans-serif;
     font-size: 14px;
     font-weight: 100;
 
 }
-.netbanking span{
+
+.netbanking span {
     width: 50px;
     height: 10px;
     background-color: aliceblue;
     color: black;
     padding: 3px;
     border-radius: 4px;
-    font-family:  "Source Sans 3", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-size: 14px;
 }
-.visa{
+
+.visa {
     font-weight: 500;
     z-index: 1;
 }
-.visa span{
+
+.visa span {
     font-size: 12px;
 }
-.icon i{
+
+.icon i {
     font-size: 30px;
-    transform: translate(-72px,10px);
+    transform: translate(-72px, 10px);
     z-index: -1;
     background-color: white;
     color: #2C4152;
@@ -524,21 +603,25 @@ hr{
     border-radius: 100%;
     border: none;
 }
-.mastercard i{
+
+.mastercard i {
     font-size: 40px;
     transform: translateY(-10px);
-    margin-left:-30px ;
+    margin-left: -30px;
 }
-.rupee i{
+
+.rupee i {
     font-size: 30px;
     margin: 0px 0px 0px 30px;
 }
-.cashondelivery{
+
+.cashondelivery {
     width: 50px;
     font-size: 12px;
     margin: 0px 0px -10px -20px;
     font-family: "Source Sans 3", sans-serif;
 }
+
 .jio {
     background-color: white;
     width: 30px;
@@ -550,12 +633,14 @@ hr{
     border-radius: 100%;
     padding-top: 3px;
 }
-.money{
+
+.money {
     font-size: 12px;
     font-family: "Source Sans 3", sans-serif;
-    margin:5px 0px 0px -25px;
+    margin: 5px 0px 0px -25px;
 }
-.ajio02:hover{
+
+.ajio02:hover {
     text-decoration: underline;
     cursor: pointer;
 }
